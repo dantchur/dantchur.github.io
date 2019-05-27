@@ -23,7 +23,7 @@ const Portfolio = function() {
 				text: "java",
 				weight: 9
 			}, {
-				text: "Daniel",
+				text: "Facebook Ads",
 				weight: 15
 			}, {
 				text: "SQL",
@@ -57,15 +57,15 @@ const Portfolio = function() {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Full-Stack Web Developer.", "love making a real difference.", "also teach programming to people.", "solve problems."
+				"am a Full-Stack Web Developer.", "love making a real difference.", "understand your business needs.", "teach people how to use software tools.", "solve problems."
 			],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
 			// typing speed
-			typeSpeed: 1,
+			typeSpeed: 1.5,
 			contentType: 'text',
 			callback: function() {
-				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
+				$("#writing-text").css({ "color": "#fff", "background-color": "#9966CC"});
 			},
 			preStringTyped: function() {},
 			onStringTyped: function() {}
